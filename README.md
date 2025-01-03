@@ -7,7 +7,7 @@ This Python script is designed to decode various hash types using a wordlist. It
 
 Features
 =========
-Supports multiple hash algorithms (e.g., MD5, SHA-1, SHA-256 ).
+Supports multiple hash algorithms (e.g., MD5, SHA-1, SHA-256, etc ).
 Utilizes a wordlist for brute-force attacks.
 Provides clear output indicating success or failure of the decoding process.
 
