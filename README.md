@@ -55,6 +55,11 @@ Example
 =======
 python hashDecoder.py md5 5d41402abc4b2a76b9719d911017c592  wordlist.txt
 
+python hashDecoder.py --md5 527bd5b5d689e2c32ae974c6229ff785 -w /usr/share/wordlists/rockyou.txt
+python hashDecoder.py --md5 527bd5b5d689e2c32ae974c6229ff785 
+python3 hashDecoder.py --md5 527bd5b5d689e2c32ae974c6229ff785 -w /usr/share/wordlists/rockyou.txt -v
+
+
 Output
 =======
 The script will output the decoded password if found, or a message indicating that the password was not found in the wordlist.
